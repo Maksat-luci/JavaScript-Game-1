@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PacMan Game V2</title>
+<html>
+    <head><title>PacMan Game V2</title>
     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="scoreBoard">
+            <span class="score">Score : 0</span>
+            <span class="lives">Lives : 1</span>
+            <span class="wins">BIM! You win! ^-^</span>
+            <h6><time>00:00:00</time></h6>
+            <button class="pause">Pause</button>
+            <button class="countinue">Countinue</button>
+            <button class="restart">Restart</button>
+            <button class="btn">Start Game</button>
 
-</head>
-<body>
-    
-    <script src="app.js"> </script>
-</body>
+            
+        </div>
+            <div class="grid"></div>
+
+  
+        <div class="ghost">
+            <div class="eyes eyeleft"></div>
+            <div class="eyes eyeright"></div>
+        </div>
+  
+
+        <div class="pacman">
+            <div class="eye"></div>
+            <div class="mouth"></div>
+        </div>
+ 
+
+ 
+
+
+
+        <script src="app.js"></script>
+    </body>
 </html>
